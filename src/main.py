@@ -10,4 +10,6 @@ def parse_url(url):
         douyin(url[0])
     else :
         logger.error('不支持该链接!')
-    
+
+if __name__ == '__main__':
+    parse_url(input('-------请在此粘贴您的链接------\n'))

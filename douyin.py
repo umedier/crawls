@@ -1,0 +1,2 @@
+def douyin(url):
+    pass
